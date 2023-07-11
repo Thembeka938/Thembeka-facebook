@@ -1,0 +1,42 @@
+
+
+.main{
+    height: 100vh;
+    margin: 0;
+    background-color:black;
+}
+
+.tool{
+    height: 8%;
+    background-color: #333333;
+}
+
+.container{
+    height: 100%;
+}
+
+.content{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.leftbar{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+}
+
+.middlebar{
+    width: 30%;
+    background-color: bisque;
+}
+
+.rightbar{
+    width:30% ;
+    background-color: red;
+}

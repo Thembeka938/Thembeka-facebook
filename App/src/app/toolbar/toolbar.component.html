@@ -1,0 +1,50 @@
+<div class="tool_main">
+
+    <div class="search">
+
+        <mat-icon>facebook</mat-icon>
+        <div class="input">
+        <mat-icon>search</mat-icon>
+        <input type="text" placeholder="Search Facebook">
+    </div>
+    </div>
+
+    <div class="mid_icon">
+        <div class="active"></div>
+        <mat-icon>home</mat-icon>        
+         <mat-icon>ondemand_video</mat-icon> 
+          <mat-icon>store</mat-icon> 
+           <mat-icon>group</mat-icon>
+           <mat-icon>flag</mat-icon>
+           
+
+    </div>
+    <div class="right_icon">
+        <div>
+            <img src="" alt="avatar" mat-card-avatar>
+            <span class="name">Thembeka</span>
+        </div>
+        <mat-icon>add</mat-icon> 
+    </div>
+    <div>
+        <mat-icon matBadge="4" matBadgeColor="primary" matBadgeOverlap="false" matBadgePosition="above after">forum</mat-icon>
+    </div>
+    
+    <div>
+        <mat-icon>notification</mat-icon>
+    </div>
+
+    <mat-icon [matMenuTriggerFor]="menu">expand_more</mat-icon>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+            <mat-icon>exit_to_app</mat-icon>Logout
+        </button>
+    </mat-menu>
+</div>
+
+
+
+        
+        
+
+    
