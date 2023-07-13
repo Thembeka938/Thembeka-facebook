@@ -1,41 +1,80 @@
-.tool_main{    
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    display: flex;
-    color: white;
+.mainContainer{
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+text-align: center;
+height: 100%;
+justify-content: space-between;
+
+
+
+
+}
+.myLeftSide{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+height: 23%;
+height: 25%;
+color: white;
+
+}
+.input{
+border: none;
+background-color: transparent;
 }
 
 .search{
-    width: 33%;
+display: flex;
+flex-direction: row;
+border: none;
+border-radius: 17px;
+width: 280px;
+height: 30px;
+background-color: gray;
+gap:2%;
+align-items: center;
+align-content: center;
+color: white;
+
+}
+
+// middle style
+.myMiddleSide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        background-color:pink;
+        height: 50%;
+        width: 50%;
+
+}
+.image{
+border-radius: 50%;
+width: 40px;
+height: 40px;
+
+}
+.picture{
+display: flex;
+flex-direction: row;
+gap:3%;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+
+}
+.myRightSide{
     display: flex;
-    flex-direction: row;
-    gap: 5%;    
-    background-color: yellow;
-
-
-
-}
-
-.input{
-    display: flex;
-    flex-direction: row;
-    border: 2px solid gray;
-    border-radius: 20px;
-}
-
-.mid_icon{
-
-    width: 33%;
-    background-color: yellowgreen;
-
-    
-
-}
-
-.right_icon{
-    width: 33%;
-    background-color: orange;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 23%;
+    height: 25%;
+    background-color: blue;
 
 }
