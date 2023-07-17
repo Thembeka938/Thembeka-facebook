@@ -61,7 +61,7 @@ height: 40px;
 .picture{
 display: flex;
 flex-direction: row;
-gap:3%;
+gap:15px;
 justify-content: space-between;
 align-items: center;
 align-content: center;
@@ -78,3 +78,4 @@ justify-content: space-between;
 ::placeholder{
     color: white;
 }
+
